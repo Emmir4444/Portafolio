@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+background:
+    linear-gradient(to bottom, #000000 0%, #020310 25%, #0c0b3e 75%, #1a1a2e 100%),
+    radial-gradient(circle, rgba(255, 255, 255, 0.8) 0.5px, transparent 0.5px) 0 0 / 40px 40px,
+    radial-gradient(circle, rgba(255, 255, 255, 0.6) 0.7px, transparent 0.7px) 20px 20px / 40px 40px,
+    radial-gradient(circle, rgba(255, 255, 255, 0.4) 1px, transparent 1px) 0 10px / 60px 60px,
+    radial-gradient(circle, rgba(255, 255, 255, 0.2) 1.2px, transparent 1.2px) 30px 30px / 60px 60px;
+  background-size: cover;
+  color: white;
+  overflow: hidden;
+}
+.banner-text-container {
+  font-size: 30px;
+  width: 65vw;
+  height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner-title {
+  font-size: 72px;
+  margin: 0; 
+border: 2px solid #c5a80600;
+
+}
+
+.banner-subtitle {
+  border: 2px solid #345be700;
+  font-size: 23px;
+  width: 50vw;
+  padding: 20px;
+  line-height: 1.4; 
+  overflow: hidden;
+  text-align: start;
+  margin-top: 20px;
+}
+.banner-buttons {
+ display: flex;
+ gap:20px;
+}
+.banner-button{
+  background-color: rgb(1, 6, 55);
+border-radius: 0%;
+box-shadow: 0 0 15px 5px rgba(0, 191, 255, 0.7);
+width: 100px;
+height: auto;
+font-size: 0.7rem;
+margin-top: 30px;
+}
+.banner-button:hover {
+    box-shadow: 0px 7px 10px rgba(16, 16, 221, 0.87);
+    color: #fff;
+    transform: scale(1.05);
+    background-color: #0a003f;
+    transition: all 0.5s ease-in-out;
+}
+.banner-habilities{
+    margin-top: 10vh;
+gap:20px;
+display: flex;
+}
+.banner-image-container {
+  width: 35vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.banner-image-container img {
+  width: 80%;
+  height: auto;
+ border-radius: 0%;
+ border-right: 6px solid rgb(6, 10, 111);
+ border-bottom: 2px solid rgb(52, 90, 231);
+}
+ /* Responsive adjustments */
+@media (max-width: 768px) {
+    .banner-main-container {
+        flex-direction: column;
+    }
+    .banner-text-container {
+        width: 100vw;
+        height: auto;
+        padding: 20px;
+        margin-top: 15vh;
+    }
+    .banner-title {
+        font-size: 50px;
+    }
+    .banner-subtitle {
+        font-size: 18px;
+        width: 90vw;
+    }
+    .banner-image-container {
+        width: 100vw;
+        height: auto;
+        margin-top: 20px;
+    }
+    .banner-image-container img {
+        width: 45%;
+        
+    }
+}
