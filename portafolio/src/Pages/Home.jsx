@@ -10,6 +10,7 @@ const Home = () => {
       <Myprojects />
   </div>
   )
+
 }
 
 export default Home

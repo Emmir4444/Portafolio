@@ -17,6 +17,7 @@ background:
   background-size: cover;
   color: white;
   overflow: hidden;
+  width: 100vw;
 }
 .banner-text-container {
   font-size: 30px;

@@ -1,3 +1,10 @@
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .footer {
     background:
     /* Gradiente principal invertido */
@@ -11,6 +18,7 @@
     color: white;
     padding: 2rem 1.5rem 1rem;
     font-family: sans-serif;
+width: 100vw;
 }
 
 .footer__container {

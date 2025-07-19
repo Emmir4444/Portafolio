@@ -5,11 +5,12 @@
 }
 
 .about-section{
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     place-items: center;
-    width: 100%;
+    width: 100vw;
     height: auto;
     background:
     /* Gradiente principal invertido */
