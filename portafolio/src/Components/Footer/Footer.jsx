@@ -78,7 +78,7 @@ const Footer = () => {
           <li className="footer__policy"><a href="#" className="footer__link">Accessibility</a></li>
         </ul>
         <p className="footer__copyright">
-          &copy; {new Date().getFullYear()} Conectta! Global Inc. All rights reserved.
+          &copy; {new Date().getFullYear()} All rights reserved.
         </p>
       </div>
     </footer>

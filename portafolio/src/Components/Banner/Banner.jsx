@@ -5,6 +5,8 @@ import angularlogo from "../../assets/images/icons8-angular-50.png";
 import jslogo from "../../assets/images/icons8-javascript-50.png";
 import pythonlogo from "../../assets/images/icons8-python-50.png";
 import sqllogo from "../../assets/images/icons8-sql-50.png";
+import bannerimagen from "../../assets/images/homeimages/bannerimage-removebg-preview.png";
+import bannerfoto from "../../assets/images/homeimages/banner2image-removebg-preview.png";
 const Banner = () => {
 
 
@@ -21,8 +23,8 @@ const Banner = () => {
             b
             </p>
             <div className="banner-buttons">
-            <button className="banner-button">Download CV</button>
-            <button className="banner-button">Contact Me</button>
+            <button className="banner-button">Descargar CV</button>
+            <button className="banner-button">Contactame</button>
             </div>
             <div className="banner-habilities">
             <img src={reactlogo} alt="React Logo" className="react-logo"/>
@@ -33,7 +35,7 @@ const Banner = () => {
                 </div>
       </div>
         <div className="banner-image-container">
-            <img src="./images/bannerfoto.jpg" alt="Banner" />
+            <img src={bannerimagen} alt="Banner" />
             </div>
     </div>
   );
