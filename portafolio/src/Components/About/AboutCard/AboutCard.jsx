@@ -7,7 +7,7 @@ const AboutCard = ({ title, description }) => {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: false }}  // 🔄 Ahora se anima CADA VEZ que entra en pantalla
+      viewport={{ once: false }}
       transition={{ duration: 0.6 }}
       className="about-card"
     >

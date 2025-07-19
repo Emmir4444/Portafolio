@@ -13,7 +13,7 @@ const Myprojects = () => {
             </div>   
             <div className='myprojects-text'>
                 <h1 >Mis Proyectos</h1>
-                <p>Here you can find some of my projects that I have developed using various technologies. Each project showcases my skills and creativity in web development.</p>
+                <p>Echa un vistazo a mis proyectos desarrollados y en los que e colaborado, quizas puedas encontrar algo de tu interes.</p>
                 <button className='myprojects-button' 
                  onClick={() => navigate("/projects")}  >Ver Proyectos</button>
                 </div>   

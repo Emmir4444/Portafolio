@@ -9,42 +9,34 @@ const Footer = () => {
       <div className="footer__main">
         <div className="footer__container">
           <div className="footer__section">
-            <h3 className="footer__subtitle">For Clients</h3>
+            <h3 className="footer__subtitle">Para Clientes</h3>
             <ul className="footer__list">
-              <li className="footer__item"><a href="#" className="footer__link">Categories</a></li>
-              <li className="footer__item"><a href="#" className="footer__link">How it works</a></li>
-              <li className="footer__item"><a href="#" className="footer__link">Success stories</a></li>
-              <li className="footer__item"><a href="#" className="footer__link">Reviews</a></li>
+              <li className="footer__item"><a href="#" className="footer__link">Mis proyectos</a></li>
+
             </ul>
           </div>
 
           <div className="footer__section">
-            <h3 className="footer__subtitle">For Talent</h3>
+            <h3 className="footer__subtitle"> Contactame</h3>
             <ul className="footer__list">
-              <li className="footer__item"><a href="#" className="footer__link">How it works</a></li>
-              <li className="footer__item"><a href="#" className="footer__link">Find work</a></li>
-              <li className="footer__item"><a href="#" className="footer__link">Success stories</a></li>
-              <li className="footer__item"><a href="#" className="footer__link">Reviews</a></li>
+              <li className="footer__item"><a href="#" className="footer__link">Redes Sociales</a></li>
+
+              <li className="footer__item"><a href="#" className="footer__link">Contactos</a></li>
             </ul>
           </div>
 
           <div className="footer__section">
-            <h3 className="footer__subtitle">Resources</h3>
+            <h3 className="footer__subtitle">Mis trabajos</h3>
             <ul className="footer__list">
-              <li className="footer__item"><a href="/FAQ" className="footer__link">FAQs</a></li> 
-              <li className="footer__item"><a href="#" className="footer__link">Help Center</a></li>
               <li className="footer__item"><a href="#" className="footer__link">Blog</a></li>
-              <li className="footer__item"><a href="#" className="footer__link">Community</a></li>
-              <li className="footer__item"><a href="#" className="footer__link">Events</a></li>
+              <li className="footer__item"><a href="#" className="footer__link">Repositorio</a></li>
             </ul>
           </div>
 
           <div className="footer__section">
             <h3 className="footer__subtitle">Company</h3>
             <ul className="footer__list">
-              <li className="footer__item"><a href="#" className="footer__link">About Us</a></li>
-              <li className="footer__item"><a href="#" className="footer__link">Careers</a></li>
-              <li className="footer__item"><a href="#" className="footer__link">Press</a></li>
+              <li className="footer__item"><a href="#" className="footer__link">About me</a></li>
               <li className="footer__item"><a href="#" className="footer__link">Contact</a></li>
             </ul>
           </div>
@@ -73,8 +65,8 @@ const Footer = () => {
         <ul className="footer__policies">
           <li className="footer__policy"><a href="#" className="footer__link">Terms of Service</a></li>
           <li className="footer__policy"><a href="#" className="footer__link">Privacy Policy</a></li>
-          <li className="footer__policy"><a href="#" className="footer__link">CA Notice at Collection</a></li>
-          <li className="footer__policy"><a href="#" className="footer__link">Cookie Settings</a></li>
+          <li className="footer__policy"><a href="#" className="footer__link">Proyects</a></li>
+          <li className="footer__policy"><a href="#" className="footer__link">about me</a></li>
           <li className="footer__policy"><a href="#" className="footer__link">Accessibility</a></li>
         </ul>
         <p className="footer__copyright">

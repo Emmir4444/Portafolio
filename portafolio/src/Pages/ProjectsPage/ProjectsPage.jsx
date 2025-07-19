@@ -3,15 +3,13 @@ import './ProjectsPage.css';
 import ProjectCard from './ProjectCard/ProjectCard';
 import myprojectsImage from '../../assets/images/myprojects_images.jpg';
 import cacaoproject from '../../assets/images/imagesprojects/a.png';
-import marketplace from '../../assets/images/imagesprojects/team.webp';
-import todolist from '../../assets/images/imagesprojects/todolist.jpg';
-import agendador from '../../assets/images/imagesprojects/agendacitas.jpg';
+
 const projectData = [
   { title: "Cacao.Cocoa", description: "Pagina web personalizada para la empresa Cacao-Cocoa", image: cacaoproject },
-  { title: "Backend para marketplace de Servicios", description: "Api rest para marketplace de servicios", image: marketplace },
-  { title: "To-do list", description: "Administrador de tareas", image: todolist },
-  { title: "Agendador de citas", description: "Agendador de citas para hospitales", image: agendador},
-  { title: "Administrador de dinero", description: "Sitio para administrar ingresos y egresos", image: myprojectsImage },
+  { title: "Backend para marketplace de Servicios", description: "Api rest para marketplace de servicios", image: myprojectsImage },
+  { title: "To-do list", description: "Administrador de tareas", image: myprojectsImage },
+  { title: "Agendador de citas", description: "Agendador de citas para hospitales", image: myprojectsImage},
+  { title: "Chatbot", description: "Chatbot de whatsapp", image: myprojectsImage },
   { title: "Sistema experto detector de plagas", description: "Sistema experto para la deteccion de plagas", image: myprojectsImage },
 ];
 
