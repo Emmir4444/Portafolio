@@ -20,7 +20,6 @@ const Banner = () => {
             Desarrollador Web Full Stack, programador y entusiasta de la tecnología,
             excelente en la resolución de problemas y apasionado por el aprendizaje continuo,
             buena comunicación y trabajo en equipo.
-            b
             </p>
             <div className="banner-buttons">
             <button className="banner-button">Descargar CV</button>
