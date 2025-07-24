@@ -1,20 +1,11 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from 'react'
 import './AboutCard.css';
-
-const AboutCard = ({ title, description }) => {
+const AboutCard = React.forwardRef(({title,content},ref) => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: false }}
-      transition={{ duration: 0.6 }}
-      className="about-card"
-    >
-      <h3>{title}</h3>
-      <p className="card-description">{description}</p>
-    </motion.div>
-  );
-};
-
-export default AboutCard;
+    <div className='about-card-container' ref={ref}>
+      <h1>{title}</h1>
+        <p>{content}</p>
+    </div>
+   );
+});
+export default AboutCard

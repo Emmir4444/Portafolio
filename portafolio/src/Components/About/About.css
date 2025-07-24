@@ -3,37 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.about-section{
-    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.about-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    place-items: center;
-    width: 100vw;
+    width: 100%;
     height: auto;
+    padding: 3%;
     background:
-    /* Gradiente principal invertido */
-    linear-gradient(to bottom, #1a1a2e 0%, #0c0b3e 25%, #020310 75%, #000000 100%),
-    
-    /* Los gradientes radiales de los puntos quedan igual */
-    radial-gradient(circle, rgba(255, 255, 255, 0.8) 0.5px, transparent 0.5px) 0 0 / 40px 40px,
-    radial-gradient(circle, rgba(255, 255, 255, 0.6) 0.7px, transparent 0.7px) 20px 20px / 40px 40px,
-    radial-gradient(circle, rgba(255, 255, 255, 0.4) 1px, transparent 1px) 0 10px / 60px 60px,
-    radial-gradient(circle, rgba(255, 255, 255, 0.2) 1.2px, transparent 1.2px) 30px 30px / 60px 60px;
-    color: rgb(255, 255, 255);
-    padding: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 60px;
-    gap: 0vw ;
+   radial-gradient(circle, rgba(255, 255, 255, 0.8) 0.5px, transparent 0.5px) 0 0 / 240px 240px,
+  radial-gradient(circle, rgba(255, 255, 255, 0.6) 0.7px, transparent 0.7px) 200px 200px / 550px 400px,
+  radial-gradient(circle, rgba(255, 255, 255, 0.4) 1px, transparent 1px) 0 100px / 700px 600px,
+  radial-gradient(circle, rgba(255, 255, 255, 0.2) 2.2px, transparent 1.2px) 300px 300px / 550px 500px,
+  linear-gradient(to bottom, #050531 0%, #03021e 25%, #020310 75%, #000000 100%);
 }
-/* Media query para pantallas pequeñas */
+.about-cards-container {
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+gap:5%;
+padding-bottom: 5%;
+}
+.habilitie-container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 @media (max-width: 768px) {
-    .about-section {
-        grid-template-columns: 1fr; /* Una sola columna */
-        padding: 20px; /* Reducir el padding */
-        gap: 20px; /* Espacio entre tarjetas */
-        width: 100%; /* Ancho completo */
-    }
+  .about-cards-container {
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+  }
 }

@@ -58,6 +58,9 @@
 
 
 @media (max-width: 768px) {
+  .navbar{
+    position: fixed;
+  }
   .menu-toggle {
     display: block;
     border-radius: 0%;
