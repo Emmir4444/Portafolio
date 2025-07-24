@@ -42,7 +42,7 @@ const About = () => {
       {
         root: null, // Observar con respecto al viewport
         rootMargin: '0px',
-        threshold: 0.5 // Disparar cuando el 20% de la sección sea visible
+        threshold: 0.2 // Disparar cuando el 20% de la sección sea visible
       }
     );
 
