@@ -16,19 +16,19 @@ const HabilitiesBar = () => {
             </div>
             <div className='habilities-icon'>
             <img src={angularlogo} alt="React Logo" className="habilities-icon" />
-            <p className='icon-title'>React</p>
+            <p className='icon-title'>Angular</p>
             </div>
             <div className='habilities-icon'>
             <img src={jslogo} alt="React Logo" className="habilities-icon" />
-            <p className='icon-title'>React</p>
+            <p className='icon-title'>JavaScript</p>
             </div>
             <div className='habilities-icon'>
             <img src={pythonlogo} alt="React Logo" className="habilities-icon" />
-            <p className='icon-title'>React</p>
+            <p className='icon-title'>Python</p>
             </div>
             <div className='habilities-icon'>
             <img src={sqllogo} alt="React Logo" className="habilities-icon" />
-            <p className='icon-title'>React</p>
+            <p className='icon-title'>SQL</p>
             </div>
             <div className='habilities-icon'>
             <img src={reactlogo} alt="React Logo" className="habilities-icon" />
