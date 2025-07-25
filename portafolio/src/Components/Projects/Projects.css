@@ -46,4 +46,7 @@ width: 100%;
         gap: 5%;
         padding: 10%;
     }
+    .projects-page-title{
+        color:#ffff;
+    }
 }

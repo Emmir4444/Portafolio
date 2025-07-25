@@ -45,4 +45,7 @@ object-fit: cover;
     width: 95vw;
     color: #ffffff;
   }
+  .project-card-button{
+    color:#ffffff
+  }
 }
