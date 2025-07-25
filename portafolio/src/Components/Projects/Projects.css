@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.projects-main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    gap: 5%;
+    background:
+   radial-gradient(circle, rgba(255, 255, 255, 0.8) 0.5px, transparent 0.5px) 0 0 / 240px 240px,
+  radial-gradient(circle, rgba(255, 255, 255, 0.6) 0.7px, transparent 0.7px) 200px 200px / 550px 400px,
+  radial-gradient(circle, rgba(255, 255, 255, 0.4) 1px, transparent 1px) 0 100px / 700px 600px,
+  radial-gradient(circle, rgba(255, 255, 255, 0.2) 2.2px, transparent 1.2px) 300px 300px / 550px 500px,
+  linear-gradient(to bottom, #000000 0%, #020310 25%, #03021e 75%, #050531 100%);
+}
+.projects-page-title{
+   font-family: 'Alexandria', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 4%;
+    font-size: clamp(3rem,4rem,6rem);
+     
+}
+.projects-cards-container {
+    display: grid; /* Cambiamos a Grid */
+    /* gap: 2%; Puedes usar gap con grid también, pero 'grid-gap' es más moderno y general */
+    gap: 1vw; /* Un valor en píxeles suele ser más consistente para el espacio entre elementos */
+    /* La clave para el ajuste automático: */
+    grid-template-columns: repeat(auto-fill, minmax(35vw, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */ /* Otra opción similar, auto-fill */
+    justify-content: center; /* Centra las celdas de la grilla si no ocupan todo el ancho */
+    align-items: center; /* Alinea los elementos en la parte superior de sus celdas si tienen diferente altura */
+margin: 0 auto;
+    padding: 3%; /* Añade un poco de padding para que las tarjetas no toquen los bordes del contenedor */
+width: 100%;
+
+}
+@media (max-width: 768px) {
+    .projects-cards-container{
+        grid-template-columns: minmax(100%,1fr);
+        place-items: center;
+        gap: 5%;
+        padding: 10%;
+    }
+}

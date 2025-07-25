@@ -63,22 +63,20 @@ const About = () => {
       <div className='about-cards-container'>
         <AboutCard 
         ref={CardRef1}
-        title={'Sobre mi'}
-        content={'Estes es un texto eejmplo sobre mi solo es de prueba aun no pienso que poner'}/>
+        title={'SOBRE MI'}
+        content={'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...'}/>
         <AboutCard
         ref={CardRef2} 
-        title={'Estudios'}
-        content={'Este es otro texto aleatorio para poer sobre mis estudios, tecnologico de zacatepec y eso xdddddddddd '}/>
+        title={'ESTUDIOS'}
+        content={'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...'}/>
         <AboutCard 
         ref={CardRef3}
-        title={'habilidades'}
-        content={'Bandera de mexico, legado de nuestris heroes simbolo de la unidad, de nuestros padres y nuestros hermanos, te prometemos ser siempre fieles'}/>
+        title={'HABILIDADES'}
+        content={'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...'}/>
         </div>
         <div className='habilitie-container' ref={HabilitieBar}>
         <HabilitiesBar />
         </div>
-      
-
         </section>
   )
 }

@@ -8,7 +8,7 @@ import sqllogo from "../../../assets/images/icons8-sql-50.png";
 const HabilitiesBar = () => {
   return (
     <div className='habilities-bar-container'>
-        <h1 className='habilities-bar-title'>Habilidades Técnicas</h1>
+        <h1 className='habilities-bar-title'>HABILIDADES TÉCNICAS</h1>
         <div className='habilities-icons-container'>
             <div className='habilities-icons'>
             <img src={reactlogo} alt="React Logo" className="habilities-icon" />

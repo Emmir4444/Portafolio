@@ -7,8 +7,7 @@ import angularlogo from "../../assets/images/icons8-angular-50.png";
 import jslogo from "../../assets/images/icons8-javascript-50.png";
 import pythonlogo from "../../assets/images/icons8-python-50.png";
 import sqllogo from "../../assets/images/icons8-sql-50.png";
-import bannerimagen from "../../assets/images/homeimages/bannerimage-removebg-preview.png";
-import bannerfoto from "../../assets/images/homeimages/banner2image-removebg-preview.png";
+import bannerimagen from "../../assets/images/homeimages/fotoimage-removebg-preview.png";
 
 const Banner = () => {
   // 1. Crea refs para cada elemento/contenedor que quieras animar
@@ -65,7 +64,7 @@ const Banner = () => {
     <div className="banner-main-container">
       <div className="banner-container">
         <div className="banner-text">
-          <h1 className="banner-title" ref={bannerTitleRef}>Bienvenido a Mi Portafolio</h1>
+          <h1 className="banner-title" ref={bannerTitleRef}>BIENVENIDO A MI PORTAFOLIO</h1>
           <p className="banner-subtitle" ref={bannerSubtitleRef}>Desarrollador Web Full Stack con amplios conocimientos en el area explora un poco mas sobre mi </p>
 
           <div className="banner-icons" ref={bannerIconsRef}>

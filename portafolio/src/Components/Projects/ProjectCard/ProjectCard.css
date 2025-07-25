@@ -1,0 +1,47 @@
+.project-card-container{
+    background-color: rgb(2, 10, 27);
+border:0.7px solid rgb(18, 179, 232);
+width: clamp(400px,55vw,100%);
+overflow: hidden;
+padding-bottom: 1%;
+}
+.project-card-image-container{
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    
+}
+.project-thumbnail{
+width:100%;
+height: auto;
+display: block;
+object-fit: cover;
+
+}
+.project-card-title{
+    font-size: clamp(1.3rem,1.9rem,2.3rem);
+    margin-left: 2%;
+}
+.project-card-description{
+    font-size: (0.7rem,1rem,2rem);
+    margin: 2%;
+}
+.project-card-button{
+  font-size: clamp(0.7rem, 1.1vw, 1.5rem);
+  font-weight: 600;
+  border-radius: 20px;
+  border-radius: 20px;
+  background-color: rgb(2, 1, 32);
+  box-shadow: 0 0px 15px 1px rgba(12, 158, 255, 0.507);
+  margin-left: 2%;
+}
+.project-card-button:hover{
+  background-color: rgb(1, 70, 101);
+  color: #ffffff;
+  box-shadow: 0 0px 15px 1px rgba(65, 179, 211, 0.4);
+}
+@media (max-width: 768px) {
+  .project-card-container{
+    width: 95vw;
+  }
+}

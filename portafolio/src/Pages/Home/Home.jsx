@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from '../../Components/Banner/Banner';
 import About from '../../Components/About/About';
+import Projects from '../../Components/Projects/Projects';
 import './Home.css';
 
 
@@ -9,6 +10,7 @@ const Home = () => {
     <section className="home">
       <Banner />
       <About />
+      <Projects />
   </section>
   )
 
