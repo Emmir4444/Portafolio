@@ -43,5 +43,6 @@ object-fit: cover;
 @media (max-width: 768px) {
   .project-card-container{
     width: 95vw;
+    color: #ffffff;
   }
 }

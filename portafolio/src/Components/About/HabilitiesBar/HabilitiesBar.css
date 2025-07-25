@@ -50,8 +50,10 @@ border:2px solid #3498db;
   .habilities-bar-title {
     text-align: center;
     padding: 1%;
+    
   }
   .habilities-icons-container{
     gap:8%;
+    color:#ffff;
   }
 }
