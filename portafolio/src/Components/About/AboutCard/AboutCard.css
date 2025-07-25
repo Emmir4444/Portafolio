@@ -6,11 +6,16 @@
 .about-card-container {
     width: clamp(100%, 20vw, 30vw);
     height: clamp(450px, 35vw, 50vh);
-    border:2px solid #3498db;
+    border: 2px solid rgba(52, 152, 219, 0.5);
     padding: 2%;
-    background-color: black;
-    box-shadow: 0px 0px 15px 2px rgba(12, 158, 255, 0.507);
     opacity: 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    transition: all 0.3s ease;
 }
 .about-card-container:hover{
     transition:0.2s ease-in-out; 
