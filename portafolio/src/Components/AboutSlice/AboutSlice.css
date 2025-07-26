@@ -1,0 +1,17 @@
+.about-slice-main{
+width: 100vw;
+height: auto;
+margin-top: 50px;
+}
+.about-slice-title{
+    width: auto;
+    font-size: clamp(1.5rem, 2vw, 2.2rem);
+    margin-top: 20px;
+    padding: 0 0 0 40px;
+
+}
+.about-slice-text{
+    margin-top: 10px;
+    width: 100%;
+    padding: 0 40px 0 40px;
+}

@@ -12,7 +12,7 @@
     width: 100vw;
     min-height: 100vh; 
     padding: 5% 10%;
-        background:
+    background:
    radial-gradient(circle, rgba(255, 255, 255, 0.8) 0.5px, transparent 0.5px) 0 0 / 240px 240px,
   radial-gradient(circle, rgba(255, 255, 255, 0.6) 0.7px, transparent 0.7px) 200px 200px / 550px 400px,
   radial-gradient(circle, rgba(255, 255, 255, 0.4) 1px, transparent 1px) 0 100px / 700px 600px,

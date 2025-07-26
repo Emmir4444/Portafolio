@@ -1,0 +1,49 @@
+.banner-about-main{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap:10px;
+    background-color: rgb(10, 10, 10);
+}
+
+.banner-about-title{
+    font-size: clamp(2rem, 3.33vw, 4rem);
+    margin-top:1%;
+    margin-left: 12%;
+}
+.image-about-page{
+    width: 20%;
+    opacity: 0.5;
+    margin-top: 2%;
+}
+.banner-about-description{
+    margin-top:15%;
+    margin-right: 12%;
+    text-align: end;
+    
+font-size: clamp(1rem, 1.33vw, 1.4rem);
+}
+@media (max-width: 768px) {
+    .banner-about-main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20%;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-about-title{
+        width: 100vw;
+        margin-left: 0;
+        text-align: center;
+    }
+    .banner-about-description{
+        width: 100vw;
+        margin-right: 0;
+        text-align: center;
+    }
+    .image-about-page{
+        width: 50%;
+    }
+}

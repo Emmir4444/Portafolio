@@ -9,7 +9,7 @@
     border: 2px solid rgba(52, 152, 219, 0.5);
     padding: 2%;
     opacity: 0;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: rgba(74, 10, 225, 0.205);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 0px;
