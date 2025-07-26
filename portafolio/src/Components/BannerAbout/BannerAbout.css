@@ -42,7 +42,8 @@ font-size: clamp(1rem, 1.33vw, 1.4rem);
     .banner-about-description{
         width: 100vw;
         margin-right: 0;
-        text-align: center;
+        text-align: start;
+        padding: 10px;
     }
     .image-about-page{
         width: 50%;

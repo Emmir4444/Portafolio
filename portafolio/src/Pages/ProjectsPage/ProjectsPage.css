@@ -85,7 +85,11 @@
     display: flex;
     flex-direction: column;
 }
+.filters-container{
+    color: #f3f2f2;
+}
 .select-project{
     color: #f3f2f2;
 }
+
 }
