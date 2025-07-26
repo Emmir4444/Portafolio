@@ -15,18 +15,9 @@ const Projects = () => {
       image={myprojectImage}
       title={'Marketplace de servicios'}
       description={'"Explora mi portafolio de desarrollo web donde la innovación se encuentra con la funcionalidad. Cada proyecto representa soluciones técnicas creativas, código limpio y diseños centrados en el usuario. Desde aplicaciones responsivas hasta interfaces dinámicas, aquí podrás ver mi enfoque metódico y mi pasión por la excelencia técnica."'}/>
-            <ProjectCard 
-      image={myprojectImage}
-      title={'To-do list'}
-      description={'"Explora mi portafolio de desarrollo web donde la innovación se encuentra con la funcionalidad. Cada proyecto representa soluciones técnicas creativas, código limpio y diseños centrados en el usuario. Desde aplicaciones responsivas hasta interfaces dinámicas, aquí podrás ver mi enfoque metódico y mi pasión por la excelencia técnica."'}/>
-            <ProjectCard 
-      image={myprojectImage}
-      title={'Chatbot de whatsapp'}
-      description={'"Explora mi portafolio de desarrollo web donde la innovación se encuentra con la funcionalidad. Cada proyecto representa soluciones técnicas creativas, código limpio y diseños centrados en el usuario. Desde aplicaciones responsivas hasta interfaces dinámicas, aquí podrás ver mi enfoque metódico y mi pasión por la excelencia técnica."'}/>
-      
-      
-      
+      <button className='projecs-button'>ver todos</button>
 </div>
+
     </section>
   )
 }

@@ -39,6 +39,21 @@ margin: 0 auto;
 width: 100%;
 
 }
+.projecs-button{
+    font-size: clamp(0.7rem, 1.1vw, 1.5rem);
+  border-radius: 0px;
+  background-color: rgba(177, 177, 181, 0.518);
+  box-shadow: 0 0px 15px 1px rgba(12, 158, 255, 0.507);
+width: clamp(200px, 5vw, 370px);
+color:#fff;
+gap:20px;  
+}
+.projecs-button:hover{
+  background-color: rgb(1, 70, 101);
+  color: #ffffff;
+  box-shadow: 0 0px 15px 1px rgba(65, 179, 211, 0.4);
+}
+
 @media (max-width: 768px) {
     .projects-cards-container{
         grid-template-columns: minmax(100%,1fr);

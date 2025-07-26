@@ -1,6 +1,6 @@
 import React from 'react'
 import './ProjectCard.css';
-import myprojectImage from '../../../assets/images/myprojects_images.jpg'; // Replace with your actual image path
+import myprojectImage from '../../../assets/images/myprojects_images.jpg';
 
 const ProjectCard = ({image,title,description}) => {
   return (

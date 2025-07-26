@@ -30,8 +30,7 @@ object-fit: cover;
 .project-card-button{
   font-size: clamp(0.7rem, 1.1vw, 1.5rem);
   font-weight: 600;
-  border-radius: 20px;
-  border-radius: 20px;
+  border-radius: 0px;
   background-color: rgb(2, 1, 32);
   box-shadow: 0 0px 15px 1px rgba(12, 158, 255, 0.507);
   margin-left: 2%;

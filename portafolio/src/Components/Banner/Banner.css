@@ -68,7 +68,7 @@ radial-gradient(circle, rgba(255, 255, 255, 0.8) 0.1px, transparent 0.5px) 0 0 /
 }
 .banner-button{
   font-size: clamp(0.7rem, 1.1vw, 1.5rem);
-  border-radius: 20px;
+  border-radius: 0px;
   background-color: rgb(2, 1, 32);
   box-shadow: 0 0px 15px 1px rgba(12, 158, 255, 0.507);
 width: clamp(200px, 5vw, 370px);
