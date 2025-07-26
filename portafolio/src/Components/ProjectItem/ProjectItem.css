@@ -110,6 +110,7 @@
   background-color: rgb(2, 1, 32);
   box-shadow: 0 0px 15px 1px rgba(12, 158, 255, 0.507);
 width: clamp(200px, 5vw, 370px);
+color: #f3f2f2;
 gap:20px;
 }
 
