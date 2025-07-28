@@ -6,22 +6,19 @@
 .about-card-container {
     width: clamp(100%, 20vw, 30vw);
     height: clamp(450px, 35vw, 50vh);
-    border: 2px solid rgba(52, 152, 219, 0.5);
     padding: 2%;
     opacity: 0;
-    background-color: rgba(74, 10, 225, 0.205);
+    background-color: rgb(16, 16, 16);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 0px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(26, 24, 24, 0.203);
     transition: all 0.3s ease;
 }
 .about-card-container:hover{
     transition:0.2s ease-in-out; 
     transform: scale(1.05);
-    background-color: rgba(0, 255, 255, 0.397);
-    box-shadow: 0px 0px 16px 4px rgba(0, 0, 255, 0.507);
+    background-color: rgba(36, 36, 36, 0.397);
 }
 .about-card-container h1{
     font-size: clamp(1.9rem, 2vw, 4vw);
