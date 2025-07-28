@@ -23,19 +23,6 @@ const ProjectsPage = () => {
         <option value="desc">Z--A</option>
     </select>
 
-    <select
-        className='select-project'
-        name="technologyFilter" /* Add a name for form submission */
-        id="technologyFilter" /* Add an ID for accessibility */
-        defaultValue="" /* Set a default value to work with the placeholder option */
-    >
-        <option value="" disabled>Tecnología</option> {/* Placeholder option */}
-        <option value="nodejs">Node.js</option>
-        <option value="python">Python</option>
-        {/* Add more technology options as needed */}
-        <option value="react">React</option>
-        <option value="htmlcss">HTML/CSS</option>
-    </select>
             </div>
             </div>
             </header>

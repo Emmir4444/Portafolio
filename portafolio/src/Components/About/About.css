@@ -11,15 +11,13 @@
     width: 100%;
     height: auto;
     padding: 3%;
-    background-color:rgb(35, 34, 34) ;
-    /*background:
+    background:
    radial-gradient(circle, rgba(255, 255, 255, 0.8) 0.5px, transparent 0.5px) 0 0 / 240px 240px,
   radial-gradient(circle, rgba(255, 255, 255, 0.6) 0.7px, transparent 0.7px) 200px 200px / 550px 400px,
   radial-gradient(circle, rgba(255, 255, 255, 0.4) 1px, transparent 1px) 0 100px / 700px 600px,
   radial-gradient(circle, rgba(255, 255, 255, 0.2) 2.2px, transparent 1.2px) 300px 300px / 550px 500px,
   linear-gradient(to bottom, #050531 0%, #03021e 25%, #020310 75%, #000000 100%);
-*/
-  }
+}
 .about-cards-container {
 display: flex;
 width: 100%;

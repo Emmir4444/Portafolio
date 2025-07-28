@@ -8,23 +8,34 @@
     height: clamp(450px, 35vw, 50vh);
     padding: 2%;
     opacity: 0;
-    background-color: rgb(16, 16, 16);
+    position: relative;
+    overflow: hidden;
+    background-color: #04020e;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    border: 2px solid;
+    border-image: linear-gradient(to right, #FF00FF, #00FFFF);
+    border-image-slice: 1;
+    box-shadow: 0 0 15px rgba(31, 2, 31, 0.6),
+                0 0 15px rgba(0, 255, 255, 0.6),
+                0 8px 32px 0 rgba(31, 38, 135, 0.37);
     border-radius: 0px;
-    border: 1px solid rgba(26, 24, 24, 0.203);
     transition: all 0.3s ease;
 }
-.about-card-container:hover{
-    transition:0.2s ease-in-out; 
+.about-card-container:hover {
+    transition: 0.2s ease-in-out;
     transform: scale(1.05);
-    background-color: rgba(36, 36, 36, 0.397);
+    background-color: rgba(7, 1, 21, 0.8);
+    box-shadow: 0px 0px 20px 8px rgba(255, 0, 255, 0.7),
+                0px 0px 20px 8px rgba(0, 255, 255, 0.7),
+                0px 0px 30px 10px rgba(31, 38, 135, 0.5); 
 }
 .about-card-container h1{
     font-size: clamp(1.9rem, 2vw, 4vw);
     text-align: center;
     color: #ffffff;
     margin-top: 10%;
+    z-index: 2;
 }
 .about-card-container p {
     font-size: clamp(1.3rem, 1.4vw, 2.2vw);
@@ -32,4 +43,5 @@
     color: #ffffff;
     padding: 5px;
     margin-top: 7%;
+    z-index: 2;
 }

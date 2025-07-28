@@ -20,29 +20,24 @@
 .projects-page-title{
    font-family: 'Alexandria', sans-serif;
     font-weight: 700;
-    text-align: left;
-    margin-left: 4%;
+    text-align: center;
     font-size: clamp(3rem,3.5rem,6rem);
      
 }
 .projects-cards-container {
-    display: grid; /* Cambiamos a Grid */
-    /* gap: 2%; Puedes usar gap con grid también, pero 'grid-gap' es más moderno y general */
-    gap: 1vw; /* Un valor en píxeles suele ser más consistente para el espacio entre elementos */
-    /* La clave para el ajuste automático: */
+    display: grid;
+    gap: 1vw;
     grid-template-columns: repeat(auto-fill, minmax(35vw, 1fr));
-    /* grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */ /* Otra opción similar, auto-fill */
-    justify-content: center; /* Centra las celdas de la grilla si no ocupan todo el ancho */
-    align-items: center; /* Alinea los elementos en la parte superior de sus celdas si tienen diferente altura */
-margin: 0 auto;
-    padding: 3%; /* Añade un poco de padding para que las tarjetas no toquen los bordes del contenedor */
-width: 100%;
-
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3%; 
+    width: 100%;
 }
 .projecs-button{
     font-size: clamp(0.7rem, 1.1vw, 1.5rem);
   border-radius: 0px;
-  background-color: rgba(177, 177, 181, 0.518);
+  background-color: rgb(2, 1, 32);
   box-shadow: 0 0px 15px 1px rgba(12, 158, 255, 0.507);
 width: clamp(200px, 5vw, 370px);
 color:#fff;

@@ -1,15 +1,29 @@
+.habilities-bar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: clamp(100%, 74%, 100%);
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    background-color: #04020e;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 2px solid;
+    border-image: linear-gradient(to right, #FF00FF, #00FFFF);
+    border-image-slice: 1;
+    box-shadow: 0 0 15px rgba(31, 2, 31, 0.6),
+                0 0 15px rgba(0, 255, 255, 0.6);
+}
 
-.habilities-bar-container{
-background-color: rgb(16, 16, 16);
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: clamp(100%, 74%, 100%);
-height: auto;
-overflow: hidden;
-border: 1px solid rgba(26, 24, 24, 0.203);
-
+.habilities-bar-container:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.02); 
+    background-color: rgba(7, 1, 21, 0.8);
+    box-shadow: 0px 0px 20px 8px rgba(255, 0, 255, 0.7),
+                0px 0px 20px 8px rgba(0, 255, 255, 0.7), 
+                0px 0px 30px 10px rgba(31, 38, 135, 0.5); 
 }
 .habilities-bar-title{
     color: rgb(255, 255, 255);

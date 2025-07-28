@@ -4,14 +4,15 @@
     padding: 0;
 }
 .banner-main-container{
- /*background:
-   radial-gradient(circle, rgba(255, 255, 255, 0.8) 0.5px, transparent 0.5px) 0 0 / 240px 240px,
-  radial-gradient(circle, rgba(255, 255, 255, 0.6) 0.7px, transparent 0.7px) 200px 200px / 550px 400px,
-  radial-gradient(circle, rgba(255, 255, 255, 0.4) 1px, transparent 1px) 0 100px / 700px 600px,
-  radial-gradient(circle, rgba(255, 255, 255, 0.2) 2.2px, transparent 1.2px) 300px 300px / 550px 500px,
-  linear-gradient(to bottom, #000000 0%, #020310 25%, #03021e 75%, #050531 100%);
-  */
-  background-color: rgb(18, 18, 18);
+ background:
+   radial-gradient(
+    circle at 20% 30%, 
+    #ff00cc 0%,
+    #0000aa 25%,
+    #000022 55%,
+    #000000 80%,
+    #000303 100%
+  );
   width: 100vw;
   height: clamp(100vh, 100%, 100vh);
   overflow: hidden;
@@ -31,8 +32,8 @@ height: auto;
 overflow: hidden;
 padding-bottom: 20px;
 background: 
-radial-gradient(circle, rgba(255, 255, 255, 0.8) 0.1px, transparent 0.5px) 0 0 / 100px 80px, /* Solo mantengo el más opaco */
-  radial-gradient(circle, rgba(239, 244, 244, 0.189) 1.2px, transparent 1px) 30px 30px / 120px 140px, /* Y el más sutil */;
+radial-gradient(circle, rgba(255, 255, 255, 0.8) 0.1px, transparent 0.5px) 0 0 / 100px 80px,
+  radial-gradient(circle, rgba(239, 244, 244, 0.189) 1.2px, transparent 1px) 30px 30px / 120px 140px;
 }
 .banner-title{
   font-size:clamp(2.5rem, 2.8vw, 3.3rem);
@@ -71,10 +72,10 @@ radial-gradient(circle, rgba(255, 255, 255, 0.8) 0.1px, transparent 0.5px) 0 0 /
 .banner-button{
   font-size: clamp(0.7rem, 1.1vw, 1.5rem);
   border-radius: 0px;
-  background-color: rgb(253, 252, 255);
+  background-color: rgb(2, 1, 32);
+  box-shadow: 0 0px 15px 1px rgba(12, 158, 255, 0.507);
 width: clamp(200px, 5vw, 370px);
 gap:20px;
-color: rgb(28, 27, 27);
 }
 .banner-button:hover{
   background-color: rgb(1, 70, 101);
@@ -139,9 +140,11 @@ overflow: hidden;
   .banner-buttons{
     gap:10%;
     width: 90%;
+    justify-content: center;
   }
   .banner-button{
     width: 24vw;
+    color:white;
   }
   .banner-image{
     position: static;

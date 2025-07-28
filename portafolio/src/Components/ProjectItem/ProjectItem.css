@@ -113,6 +113,12 @@ width: clamp(200px, 5vw, 370px);
 color: #f3f2f2;
 gap:20px;
 }
+.projectitm-button:hover{
+      background-color: rgb(1, 70, 101);
+  color: #ffffff;
+  box-shadow: 0 0px 15px 1px rgba(65, 179, 211, 0.4);
+}
+
 
 /* Responsive styles */
 @media (max-width: 768px) {
