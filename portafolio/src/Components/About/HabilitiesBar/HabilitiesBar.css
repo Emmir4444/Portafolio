@@ -44,8 +44,9 @@
 
 }
 .habilities-icon{
-    width: clamp(25px, 3vw, 80px);
+    width: clamp(30px, 3vw, 60px);
     height: auto;
+    justify-items: center;
 }
 .habilities-icon:hover{
     transform: scale(1.1);
@@ -63,10 +64,26 @@
   .habilities-bar-title {
     text-align: center;
     padding: 1%;
-    
   }
-  .habilities-icons-container{
-    gap:8%;
-    color:#ffff;
+
+  .habilities-icons-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8%;
+    color: #ffff;
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    padding-bottom: 35px;
+  }
+
+  .habilities-icons-container .habilities-icon-wrapper:nth-child(11) {
+    grid-column: span 5;
+    justify-self: center;
+  }
+
+  .habilities-icon {
+    width: 45px;
+    height: auto;
   }
 }

@@ -64,15 +64,15 @@ const About = () => {
         <AboutCard 
         ref={CardRef1}
         title={'SOBRE MI'}
-        content={'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...'}/>
+        content={'"Hola! me llamo Jorge Beltran, Ingeniero en Sistemas Computacionales (24 años, recién egresado), especializado en desarrollo web empresarial. Amante de la tecnología y el desarrollo web, me mantengo en constante aprendizaje y busco siempre adaptarme a nuevas herramientas.'}/>
         <AboutCard
         ref={CardRef2} 
         title={'ESTUDIOS'}
-        content={'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...'}/>
+        content={'Ingenieria en Sistemas Computacionales Instituto Tecnologico de Zacatepec.\n\nContabilidad tecnica Cbetis No.43, '}/>
         <AboutCard 
         ref={CardRef3}
-        title={'HABILIDADES'}
-        content={'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...'}/>
+        title={'HABILIDADES BLANDAS'}
+        content={'Buena comunicación\nTrabajo en equipo\nResolución de problemas\nProactivo\nAutodidacta\nIniciativa\nAdaptable\nResponsable'}/>
         </div>
         <div className='habilitie-container' ref={HabilitieBar}>
         <HabilitiesBar />

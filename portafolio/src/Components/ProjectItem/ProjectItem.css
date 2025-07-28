@@ -142,7 +142,7 @@ gap:20px;
     
     .projectitem-container-right {
         order: 1;
-        height: 300px; /* Set a fixed height for the image container */
+        height: 300px; 
     }
     
     .projectitem-description {

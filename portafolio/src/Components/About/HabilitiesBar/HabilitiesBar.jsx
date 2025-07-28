@@ -1,47 +1,72 @@
-import React from 'react'
+import React from 'react';
 import './HabilitiesBar.css';
-import reactlogo from "../../../assets/images/icons8-react-native-50(1).png"; 
-import angularlogo from "../../../assets/images/icons8-angular-50.png";
-import jslogo from "../../../assets/images/icons8-javascript-50.png";
-import pythonlogo from "../../../assets/images/icons8-python-50.png";
-import sqllogo from "../../../assets/images/icons8-sql-50.png";
+
+import { FaReact, FaAngular, FaJs, FaJava, FaPython, FaDatabase, FaClipboardList, FaDocker, FaGitAlt, FaCloud,FaAws,FaLinux } from 'react-icons/fa';
+
 const HabilitiesBar = () => {
   return (
     <div className='habilities-bar-container'>
-        <h1 className='habilities-bar-title'>HABILIDADES TÉCNICAS</h1>
-        <div className='habilities-icons-container'>
-            <div className='habilities-icons'>
-            <img src={reactlogo} alt="React Logo" className="habilities-icon" />
-            <p className='icon-title'>React</p>
-            </div>
-            <div className='habilities-icon'>
-            <img src={angularlogo} alt="React Logo" className="habilities-icon" />
-            <p className='icon-title'>Angular</p>
-            </div>
-            <div className='habilities-icon'>
-            <img src={jslogo} alt="React Logo" className="habilities-icon" />
-            <p className='icon-title'>JavaScript</p>
-            </div>
-            <div className='habilities-icon'>
-            <img src={pythonlogo} alt="React Logo" className="habilities-icon" />
-            <p className='icon-title'>Python</p>
-            </div>
-            <div className='habilities-icon'>
-            <img src={sqllogo} alt="React Logo" className="habilities-icon" />
-            <p className='icon-title'>SQL</p>
-            </div>
-            <div className='habilities-icon'>
-            <img src={reactlogo} alt="React Logo" className="habilities-icon" />
-            <p className='icon-title'>React</p>
-            </div>
-            <div className='habilities-icon'>
-            <img src={reactlogo} alt="React Logo" className="habilities-icon" />
-            <p className='icon-title'>React</p>
-            </div>
-            </div>
-      
-    </div>
-  )
-}
+      <h1 className='habilities-bar-title'>HABILIDADES TÉCNICAS</h1>
+      <div className='habilities-icons-container'>
 
-export default HabilitiesBar
+        <div className='habilities-icon-wrapper'>
+          <FaReact className="habilities-icon" />
+          <p className='icon-title'>React</p>
+        </div>
+
+        <div className='habilities-icon-wrapper'>
+          <FaAngular className="habilities-icon" />
+          <p className='icon-title'>Angular</p>
+        </div>
+
+        <div className='habilities-icon-wrapper'>
+          <FaJs className="habilities-icon" />
+          <p className='icon-title'>JavaScript</p>
+        </div>
+
+        {/* Nuevo Icono de Java añadido aquí */}
+        <div className='habilities-icon-wrapper'>
+          <FaJava className="habilities-icon" />
+          <p className='icon-title'>Java</p>
+        </div>
+
+        <div className='habilities-icon-wrapper'>
+          <FaPython className="habilities-icon" />
+          <p className='icon-title'>Python</p>
+        </div>
+
+        <div className='habilities-icon-wrapper'>
+          <FaDatabase className="habilities-icon" />
+          <p className='icon-title'>SQL</p>
+        </div>
+
+        <div className='habilities-icon-wrapper'>
+          <FaClipboardList className="habilities-icon" />
+          <p className='icon-title'>SCRUM</p>
+        </div>
+
+        <div className='habilities-icon-wrapper'>
+          <FaDocker className="habilities-icon" />
+          <p className='icon-title'>Docker</p>
+        </div>
+
+        <div className='habilities-icon-wrapper'>
+          <FaGitAlt className="habilities-icon" />
+          <p className='icon-title'>Git</p>
+        </div>
+
+        <div className='habilities-icon-wrapper'>
+          <FaAws className="habilities-icon" />
+          <p className='icon-title'>AWS</p>
+        </div>
+        <div className='habilities-icon-wrapper'>
+          <FaLinux className="habilities-icon" />
+          <p className='icon-title'>Linux</p>
+        </div>
+
+      </div>
+    </div>
+  );
+};
+
+export default HabilitiesBar;

@@ -65,7 +65,7 @@ const Banner = () => {
       <div className="banner-container">
         <div className="banner-text">
           <h1 className="banner-title" ref={bannerTitleRef}>BIENVENIDO A MI PORTAFOLIO</h1>
-          <p className="banner-subtitle" ref={bannerSubtitleRef}>Desarrollador Web Full Stack con amplios conocimientos en el area explora un poco mas sobre mi </p>
+          <p className="banner-subtitle" ref={bannerSubtitleRef}>Soy un Desarrollador Web Full Stack entusiasta. Te invito a explorar mi portafolio para conocer más sobre mi trabajo y habilidades </p>
 
           <div className="banner-icons" ref={bannerIconsRef}>
             <img src={reactlogo} alt="React Logo" className="banner-icon" />
