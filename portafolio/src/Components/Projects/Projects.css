@@ -34,7 +34,7 @@
     padding: 3%; 
     width: 100%;
 }
-.projecs-button{
+.projects-button{
     font-size: clamp(0.7rem, 1.1vw, 1.5rem);
   border-radius: 0px;
   background-color: rgb(2, 1, 32);

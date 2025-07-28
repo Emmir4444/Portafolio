@@ -139,10 +139,10 @@
     font-size: clamp(0.7rem, 1.1vw, 1.5rem);
     font-weight: 600;
     box-shadow: 0 0px 15px 1px rgba(12, 158, 255, 0.507);
-    cursor: pointer;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     margin-bottom: 3%;
     margin-top: 20px;
+    z-index: 2;
 }
 
 .btn-contactme:hover {

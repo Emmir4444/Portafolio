@@ -67,12 +67,12 @@ const About = () => {
         content={'"Hola! me llamo Jorge Beltran, Ingeniero en Sistemas Computacionales (24 años, recién egresado), especializado en desarrollo web empresarial. Amante de la tecnología y el desarrollo web, me mantengo en constante aprendizaje y busco siempre adaptarme a nuevas herramientas.'}/>
         <AboutCard
         ref={CardRef2} 
-        title={'ESTUDIOS'}
-        content={'Ingenieria en Sistemas Computacionales Instituto Tecnologico de Zacatepec.\n\nContabilidad tecnica Cbetis No.43, '}/>
+        title={'EDUCACIÓN'}
+        content={'Ingeniería en Sistemas Computacionales Instituto Tecnológico de Zacatepec \n| 2020 - 2025 \n\n Técnico en Contabilidad CBTis No. 43 \n| 2016 - 2019 (o años de estudio)'}/>
         <AboutCard 
         ref={CardRef3}
         title={'HABILIDADES BLANDAS'}
-        content={'Buena comunicación\nTrabajo en equipo\nResolución de problemas\nProactivo\nAutodidacta\nIniciativa\nAdaptable\nResponsable'}/>
+        content={'-Buena comunicación\n-Trabajo en equipo\n-Resolución de problemas\n-Proactivo\n-Autodidacta\n-Iniciativa\n-Adaptable\n-Responsable'}/>
         </div>
         <div className='habilitie-container' ref={HabilitieBar}>
         <HabilitiesBar />

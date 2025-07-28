@@ -9,9 +9,8 @@ const ContactMe = () => {
       <div className='contactme-container'>
         <div className='contactme-container-text'>
             <h1 className='contactme-text-title'>CONTACTAME  </h1>
-            <p className='contactme-text-content' >¿Tienes un proyecto en mente? Ya sea colaboración, oferta laboral o asesoría técnica, estaré encantado de conversar.
-                ¿Tienes un proyecto en mente? Ya sea colaboración, oferta laboral o asesoría técnica, estaré encantado de conversar.
-                ¿Tienes un proyecto en mente? Ya sea colaboración, oferta laboral o asesoría técnica, estaré encantado de conversar.
+            <p className='contactme-text-content' >"¿Tienes un proyecto interesante en desarrollo? Estoy disponible para colaboraciones, oportunidades laborales o cualquier iniciativa donde pueda aportar mi experiencia. No dudes en contactarme - estaré encantado de explorar cómo podemos trabajar juntos."
+         
             </p>
             <div className='contactme-icons'>
                <a href="#" className="contactme-icon">
@@ -37,10 +36,9 @@ const ContactMe = () => {
 
                     </form>
            </div>
-           
-           <button className='btn-contactme'>Enviar</button>
-            
+           <button className='btn-contactme' type="button">Enviar</button>
         </div>
+        
       </div>
     </section>
   )
