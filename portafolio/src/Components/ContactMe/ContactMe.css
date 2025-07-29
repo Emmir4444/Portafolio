@@ -10,7 +10,7 @@
     flex-direction: column;
     place-items: center; 
     width: 100vw;
-    min-height: 100vh; 
+    min-height: auto; 
     padding: 5% 10%;
     background:
    radial-gradient(circle, rgba(255, 255, 255, 0.8) 0.5px, transparent 0.5px) 0 0 / 240px 240px,

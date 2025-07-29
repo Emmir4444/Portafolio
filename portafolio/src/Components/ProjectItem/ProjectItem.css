@@ -70,7 +70,7 @@
     background-color: black;
     display: flex;
     align-items: start;
-    width: 40%;
+    width: 30%;
     flex-direction: column;
     bottom: 0;
     left: 0;
@@ -155,7 +155,7 @@ gap:20px;
     }
     
     .projectitem-tecnologies {
-        width: 50%;
+        width: 30%;
         height: 30%;
         overflow: hidden;
     }
@@ -185,7 +185,7 @@ gap:20px;
     }
     
     .projectitem-tecnologies {
-        width: 60%;
+        min-width:  45%;
     }
     
     .projectitem-tecnologies h1:first-of-type {

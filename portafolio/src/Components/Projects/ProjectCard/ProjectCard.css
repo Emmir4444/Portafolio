@@ -1,6 +1,7 @@
 .project-card-container {
     background-color: #04020e;
     width: clamp(400px,55vw,100%);
+    height: auto;
     overflow: hidden;
     padding-bottom: 5%;
     position: relative;

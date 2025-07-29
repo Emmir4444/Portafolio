@@ -10,7 +10,7 @@ const ProjectCard = ({image,title,description}) => {
         </div>
         <h1 className='project-card-title'>{title}</h1>
         <p className='project-card-description'>{description}</p>
-        <button className='project-card-button'>View Project</button>
+        <button className='project-card-button'>Ver Proyecto</button>
     </div>
   )
 }
