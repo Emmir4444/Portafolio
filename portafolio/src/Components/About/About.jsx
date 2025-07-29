@@ -68,7 +68,7 @@ const About = () => {
         <AboutCard
         ref={CardRef2} 
         title={'EDUCACIÓN'}
-        content={'Ingeniería en Sistemas Computacionales Instituto Tecnológico de Zacatepec \n| 2020 - 2025 \n\n Técnico en Contabilidad CBTis No. 43 \n| 2016 - 2019 (o años de estudio)'}/>
+        content={'Ingeniería en Sistemas Computacionales \nInstituto Tecnológico de Zacatepec \n| 2020 - 2025 \n\n Técnico en Contabilidad \nCBTis No. 43 \n| 2016 - 2019'}/>
         <AboutCard 
         ref={CardRef3}
         title={'HABILIDADES BLANDAS'}
