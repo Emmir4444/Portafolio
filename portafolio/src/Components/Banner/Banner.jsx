@@ -1,21 +1,23 @@
-import React, { useState, useEffect, useRef } from 'react'; // Asegúrate de importar useRef
+import React, { useState, useEffect, useRef } from 'react'; 
 import { gsap } from 'gsap';
 import "./Banner.css";
-// Importaciones de imágenes (asegúrate de que las rutas son correctas y los nombres de archivo no tienen caracteres especiales)
+
 import reactlogo from "../../assets/images/icons8-react-native-50(1).png";
 import angularlogo from "../../assets/images/icons8-angular-50.png";
 import jslogo from "../../assets/images/icons8-javascript-50.png";
 import pythonlogo from "../../assets/images/icons8-python-50.png";
 import sqllogo from "../../assets/images/icons8-sql-50.png";
-import bannerimagen from "../../assets/images/homeimages/fotoimage-removebg-preview.png";
+import bannerimagen from "../../assets/images/homeimages/giblifoto-removebg-preview.png";
+import CV_Jorge from '../../assets/images/cv/Jorge_E_CV.pdf';
+import CV from '../../assets/images/cv/CV.pdf'
 
 const Banner = () => {
-  // 1. Crea refs para cada elemento/contenedor que quieras animar
+
   const bannerImgRef = useRef(null);
-  const bannerTitleRef = useRef(null);   // Ref para el h1
-  const bannerSubtitleRef = useRef(null); // Ref para el p
-  const bannerIconsRef = useRef(null);    // Ref para el div de iconos
-  const bannerButtonsRef = useRef(null);  // Ref para el div de botones
+  const bannerTitleRef = useRef(null);   
+  const bannerSubtitleRef = useRef(null); 
+  const bannerIconsRef = useRef(null);    
+  const bannerButtonsRef = useRef(null);  
 
   useEffect(() => {
     console.log('--- useEffect se ha ejecutado ---');
@@ -26,7 +28,7 @@ const Banner = () => {
     console.log('bannerButtonsRef.current:', bannerButtonsRef.current);
 
 
-    // 2. Comprueba que TODOS los elementos existan antes de iniciar la animación
+    
     if (bannerImgRef.current && bannerTitleRef.current && bannerSubtitleRef.current && bannerIconsRef.current && bannerButtonsRef.current) {
       console.log('Todos los elementos encontrados. Iniciando Masterline...');
       const Masterline = gsap.timeline({
@@ -65,7 +67,7 @@ const Banner = () => {
       <div className="banner-container">
         <div className="banner-text">
           <h1 className="banner-title" ref={bannerTitleRef}>BIENVENIDO A MI PORTAFOLIO</h1>
-          <p className="banner-subtitle" ref={bannerSubtitleRef}>Soy un Desarrollador Web Full Stack entusiasta. Te invito a explorar mi portafolio para conocer más sobre mi trabajo y habilidades </p>
+          <p className="banner-subtitle" ref={bannerSubtitleRef}>Desarrollador Web Full Stack. Te invito a explorar mi portafolio para conocer más sobre mi trabajo y habilidades </p>
 
           <div className="banner-icons" ref={bannerIconsRef}>
             <img src={reactlogo} alt="React Logo" className="banner-icon" />
@@ -76,7 +78,13 @@ const Banner = () => {
           </div>
 
           <div className="banner-buttons" ref={bannerButtonsRef}>
-            <button className="banner-button">Descargar CV</button>
+            <a
+              href={CV} 
+              download="CV.pdf"
+              className="banner-button"
+            >
+            Descargar CV
+            </a>
             <button className="banner-button">Contactar</button>
           </div>
         </div>

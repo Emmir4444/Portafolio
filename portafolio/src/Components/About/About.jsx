@@ -72,7 +72,7 @@ const About = () => {
         <AboutCard 
         ref={CardRef3}
         title={'HABILIDADES BLANDAS'}
-        content={'-Buena comunicación\n-Trabajo en equipo\n-Resolución de problemas\n-Proactivo\n-Autodidacta\n-Iniciativa\n-Adaptable\n-Responsable'}/>
+        content={'-Buena comunicación\n-Trabajo en equipo\n-Resolución de problemas\n-Proactivo\n-Autodidacta\n-Iniciativa\n-Adaptable\n-Responsable\n-INGLES: Intermedio'}/>
         </div>
         <div className='habilitie-container' ref={HabilitieBar}>
         <HabilitiesBar />

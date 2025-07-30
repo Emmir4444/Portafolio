@@ -11,17 +11,18 @@ const ProjectsPage = () => {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      title: "E-commerce React",
-      description: "Plataforma de comercio electrónico completa con carrito de compras, autenticación de usuarios y pasarela de pagos.",
-      githubLink: "https://github.com/tu-usuario/ecommerce-react",
-      image:cacao,
-      technologies: [
-        { icon: <FaReact size={25} />},
-        { icon: <FaNodeJs size={25} />, }
+      title: "ChatBot de Whatsapp",
+      description: "Bot de respuesta automatica para la atencion automatizada de clientes",
+      githubLink: "https://github.com/tu-usuario/zoo-management",
+      image:chatbot,
+            technologies:[
+        {icon:<FaNodeJs size={25}/> },
+        {icon:<FaWhatsapp size={25}/> },
+        
       ],
-      collaboration: { icon: <FaUsers size={25} />, }
-      
+      collaboration: { icon: <FaUser size={25} />, }
     },
+   
     {
       id: 2,
       title: "API REST con Node.js",
@@ -34,19 +35,21 @@ const ProjectsPage = () => {
       ],
       collaboration: { icon: <FaUser size={25} />, }
     },
-    {
+
+     {
       id: 3,
-      title: "ChatBot de Whatsapp",
-      description: "Bot de respuesta automatica para la atencion automatizada de clientes",
-      githubLink: "https://github.com/tu-usuario/zoo-management",
-      image:chatbot,
-            technologies:[
-        {icon:<FaNodeJs size={25}/> },
-        {icon:<FaWhatsapp size={25}/> },
-        
+      title: "E-commerce React",
+      description: "Plataforma de comercio electrónico completa con carrito de compras, autenticación de usuarios y pasarela de pagos.",
+      githubLink: "https://github.com/tu-usuario/ecommerce-react",
+      image:cacao,
+      technologies: [
+        { icon: <FaReact size={25} />},
+        { icon: <FaNodeJs size={25} />, }
       ],
-      collaboration: { icon: <FaUser size={25} />, }
-    }
+      collaboration: { icon: <FaUsers size={25} />, }
+      
+    },
+    
   ]);
 
   const [sortOrder, setSortOrder] = useState('');
@@ -72,7 +75,7 @@ const ProjectsPage = () => {
       <header className='projects-page-header'>
         <h1 className='projects-page-title'>PROYECTOS</h1>
         <div className='filters-container'>
-          <p>Filtrar Por</p>
+          <p>Ordenar</p>
           <div className='selects-container'>
             <select
               className='select-project'

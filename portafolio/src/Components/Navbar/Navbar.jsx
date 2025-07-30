@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/" className="navbar-logo">Mi Portafolio</Link>
+        <Link to="/" className="navbar-logo">Mi Portafolio!</Link>
       </div>
 
       <button className="menu-toggle" onClick={toggleMenu}>

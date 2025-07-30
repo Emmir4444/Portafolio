@@ -49,7 +49,7 @@
     justify-items: center;
 }
 .habilities-icon:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
     transition: 0.2s ease-in-out;
    
 }
@@ -68,7 +68,7 @@
 
   .habilities-icons-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 8%;
     color: #ffff;
     justify-items: center;
@@ -77,7 +77,7 @@
     padding-bottom: 35px;
   }
 
-  .habilities-icons-container .habilities-icon-wrapper:nth-child(11) {
+  .habilities-icons-container .habilities-icon-wrapper:nth-child(13) {
     grid-column: span 5;
     justify-self: center;
   }

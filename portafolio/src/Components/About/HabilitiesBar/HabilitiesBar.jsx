@@ -1,7 +1,9 @@
 import React from 'react';
 import './HabilitiesBar.css';
 
-import { FaReact, FaAngular, FaJs, FaJava, FaPython, FaDatabase, FaClipboardList, FaDocker, FaGitAlt, FaCloud,FaAws,FaLinux } from 'react-icons/fa';
+import { FaReact, FaAngular, FaJs, FaJava, FaPython, FaDatabase,
+   FaClipboardList, FaDocker, FaGitAlt, FaCloud,FaAws,FaLinux,
+  FaHtml5,FaCss3 } from 'react-icons/fa';
 
 const HabilitiesBar = () => {
   return (
@@ -36,6 +38,16 @@ const HabilitiesBar = () => {
         </div>
 
         <div className='habilities-icon-wrapper'>
+          <FaHtml5 className="habilities-icon" />
+          <p className='icon-title'>HTML</p>
+
+        </div>
+                <div className='habilities-icon-wrapper'>
+          <FaCss3 className="habilities-icon" />
+          <p className='icon-title'>CSS</p>
+        </div>
+
+        <div className='habilities-icon-wrapper'>
           <FaDatabase className="habilities-icon" />
           <p className='icon-title'>SQL</p>
         </div>
@@ -43,11 +55,6 @@ const HabilitiesBar = () => {
         <div className='habilities-icon-wrapper'>
           <FaClipboardList className="habilities-icon" />
           <p className='icon-title'>SCRUM</p>
-        </div>
-
-        <div className='habilities-icon-wrapper'>
-          <FaDocker className="habilities-icon" />
-          <p className='icon-title'>Docker</p>
         </div>
 
         <div className='habilities-icon-wrapper'>
