@@ -8,6 +8,7 @@ margin-top: 50px;
     font-size: clamp(1.5rem, 2vw, 2.2rem);
     margin-top: 20px;
     padding: 0 0 0 40px;
+    color: #f3f5f5;
 
 }
 .about-slice-text{
@@ -15,6 +16,7 @@ margin-top: 50px;
     width: 100%;
     padding: 0 40px 0 40px;
     padding-bottom: 20px;
+    color: #f3f5f5;
 }
 
 @media (max-width: 768px) {

@@ -29,11 +29,13 @@
     font-size: 2rem;
     width: 100%;
     height: auto;
+    color: #f3f5f5;
 }
 
 .projectitem-description {
     width: 90%;
     height: auto;
+    color: #f3f5f5;
 }
 
 .projectitm-button {
@@ -80,6 +82,7 @@
 
 .projectitem-tecnologies h1:first-of-type {
     font-size: 1.5rem;
+    color: #f3f5f5;
 }
 
 .icons-container {
@@ -99,6 +102,7 @@
     background-color: black;
     padding: 0.5rem;
     box-sizing: border-box;
+    color: #f3f5f5;
 }
 
 .project-item-label h1:first-of-type {
