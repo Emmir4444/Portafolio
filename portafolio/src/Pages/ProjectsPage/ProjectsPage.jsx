@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ProjectsPage.css';
 import ProjectItem from '../../Components/ProjectItem/ProjectItem';
-import { FaReact, FaNodeJs, FaPython,FaAws,FaUser,FaUsers,FaWhatsapp } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaPython,FaAws,FaUser,FaUsers,FaWhatsapp,FaAngular } from 'react-icons/fa';
 import myprojectImage from '../../assets/images/myprojects_images.jpg';
 import marketplaceImage from '../../assets/images/imagesprojects/marketplace_project.jpg'
 import cacao from '../../assets/images/imagesprojects/Captura de pantalla 2025-07-29 005335.png'
@@ -13,7 +13,7 @@ const ProjectsPage = () => {
     {
       id: 1,
       title: "ChatBot de Whatsapp",
-      description: "Bot de respuesta automatica para la atencion automatizada de clientes",
+      description: "Bot de respuesta automatica para la atencion automatizada de clientes, utilizando diversos formatos de mensajes como texto, imagenes y botones interactivos, el bot esta desarrollado en Node.js utilizando la libreria open-source Baileys para la conexion con la API de Whatsapp Web.",
       githubLink: "https://github.com/tu-usuario/zoo-management",
       image:chatbot,
             technologies:[
@@ -27,7 +27,7 @@ const ProjectsPage = () => {
     {
       id: 2,
       title: "API REST con Node.js",
-      description: "Backend para aplicación de gestión de tareas con autenticación JWT y base de datos MongoDB.",
+      description: "Backend para aplicación de gestión de multiples tareas con autenticación JWT y base de datos MongoDB, el software realiza registros, autenticaciones y verificaciones de usuarios, asi como manejo de perfiles, se requirio el uso de los servicios de AWS para las diversas tareas como SES para la verificación de cuentas y S3 para el almacenamiento de imagenes .",
       githubLink: "https://github.com/tu-usuario/api-rest-node",
       image:marketplaceImage,
       technologies:[
@@ -39,8 +39,8 @@ const ProjectsPage = () => {
 
      {
       id: 3,
-      title: "E-commerce React",
-      description: "Plataforma de comercio electrónico completa con carrito de compras, autenticación de usuarios y pasarela de pagos.",
+      title: "Pagina personalizda con React",
+      description: "Plataforma personalizada para negocio en linea en la cual se busco atrapar el interes por el producto, la pagina cuenta con diversos componentes para la difusión del producto y estilo de vida del dueño, en esta pagina se utilizo react.js para el frontend y node.js para el backend.",
       githubLink: "https://github.com/tu-usuario/ecommerce-react",
       image:cacao,
       technologies: [
@@ -53,12 +53,12 @@ const ProjectsPage = () => {
     {
       id: 4,
       title: "To do list",
-      description: "Administrador de tareas",
+      description: "Administrador de tareas utilizando Angular para el frontend y Flask para el backend, permitiendo a los usuarios crear, editar y eliminar tareas de manera eficiente.",
       githubLink: "https://github.com/tu-usuario/ecommerce-react",
       image:list,
       technologies: [
-        { icon: <FaReact size={25} />},
-        { icon: <FaNodeJs size={25} />, }
+        { icon: <FaAngular size={25} />},
+        { icon: <FaPython size={25} />, }
       ],
       collaboration: { icon: <FaUsers size={25} />, }
       

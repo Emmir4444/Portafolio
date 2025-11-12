@@ -9,9 +9,7 @@ const AboutPage = () => {
       <BannerAbout/>
       <div className='about-page-content'>
         <AbouSlice/>
-        <AbouSlice/>
-        <AbouSlice/>
-        <AbouSlice/>
+
         </div>
     </section>
   )

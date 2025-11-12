@@ -29,45 +29,44 @@ const Footer = () => {
             <h3 className="footer__subtitle">Mis trabajos</h3>
             <ul className="footer__list">
               <li className="footer__item"><a href="#" className="footer__link">Blog</a></li>
-              <li className="footer__item"><a href="#" className="footer__link">Repositorio</a></li>
+             <li className="footer__item"><a href="https://github.com/Emmir4444" target="_blank" rel="noopener noreferrer" className="footer__link">Repositorio</a></li>
             </ul>
           </div>
 
-          <div className="footer__section">
-            <h3 className="footer__subtitle">Company</h3>
-            <ul className="footer__list">
-              <li className="footer__item"><a href="#" className="footer__link">About me</a></li>
-              <li className="footer__item"><a href="#" className="footer__link">Contact</a></li>
-            </ul>
-          </div>
+         
         </div>
       </div>
 
-      <div className="footer__social">
-        <a href="#" className="footer__icon">
-          <FaFacebook size={24} />
-        </a>
-        <a href="#" className="footer__icon">
-          <FaTwitter size={24} />
-        </a>
-        <a href="#" className="footer__icon">
-          <FaInstagram size={24} /> 
-        </a>
-        <a href="#" className="footer__icon">
-          <FaLinkedin size={24} />
-        </a>
-        <a href="#" className="footer__icon" style={{ marginTop: '-5px' }}>
-          <DiGithubBadge size={34} />
-        </a>
-      </div>
+<div className="footer__social">
+    {/* Facebook */}
+    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="footer__icon">
+        <FaFacebook size={24} />
+    </a>
+    {/* X (Twitter) */}
+    <a href="https://x.com/" target="_blank" rel="noopener noreferrer" className="footer__icon">
+        <FaTwitter size={24} />
+    </a>
+    {/* Instagram */}
+    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="footer__icon">
+        <FaInstagram size={24} /> 
+    </a>
+    {/* LinkedIn */}
+    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="footer__icon">
+        <FaLinkedin size={24} />
+    </a>
+    {/* GitHub (Ya corregido) */}
+    <a href="https://github.com/Emmir4444" target="_blank" rel="noopener noreferrer" className="footer__icon" style={{ marginTop: '-5px' }}>
+        <DiGithubBadge size={34} />
+    </a>
+</div>
 
       <div className="footer__bottom">
         <ul className="footer__policies">
-          <li className="footer__policy"><a href="#" className="footer__link">Terms of Service</a></li>
-          <li className="footer__policy"><a href="#" className="footer__link">Privacy Policy</a></li>
-          <li className="footer__policy"><a href="#" className="footer__link">Proyects</a></li>
-          <li className="footer__policy"><a href="#" className="footer__link">about me</a></li>
-          <li className="footer__policy"><a href="#" className="footer__link">Accessibility</a></li>
+          <li className="footer__policy"><a href="#" className="footer__link"></a></li>
+          <li className="footer__policy"><a href="#" className="footer__link"></a></li>
+          <li className="footer__policy"><a href="#" className="footer__link"></a></li>
+          <li className="footer__policy"><a href="#" className="footer__link"></a></li>
+          <li className="footer__policy"><a href="#" className="footer__link"></a></li>
         </ul>
         <p className="footer__copyright">
           &copy; {new Date().getFullYear()} All rights reserved.
