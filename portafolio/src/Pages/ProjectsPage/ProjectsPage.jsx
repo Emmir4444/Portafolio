@@ -6,6 +6,7 @@ import myprojectImage from '../../assets/images/myprojects_images.jpg';
 import marketplaceImage from '../../assets/images/imagesprojects/marketplace_project.jpg'
 import cacao from '../../assets/images/imagesprojects/Captura de pantalla 2025-07-29 005335.png'
 import chatbot from '../../assets/images/imagesprojects/chatbot.jpg'
+import list from '../../assets/images/imagesprojects/image.png'
 
 const ProjectsPage = () => {
   const [projects, setProjects] = useState([
@@ -42,6 +43,19 @@ const ProjectsPage = () => {
       description: "Plataforma de comercio electrónico completa con carrito de compras, autenticación de usuarios y pasarela de pagos.",
       githubLink: "https://github.com/tu-usuario/ecommerce-react",
       image:cacao,
+      technologies: [
+        { icon: <FaReact size={25} />},
+        { icon: <FaNodeJs size={25} />, }
+      ],
+      collaboration: { icon: <FaUsers size={25} />, }
+      
+    },
+    {
+      id: 4,
+      title: "To do list",
+      description: "Administrador de tareas",
+      githubLink: "https://github.com/tu-usuario/ecommerce-react",
+      image:list,
       technologies: [
         { icon: <FaReact size={25} />},
         { icon: <FaNodeJs size={25} />, }

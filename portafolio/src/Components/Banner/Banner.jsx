@@ -9,7 +9,6 @@ import pythonlogo from "../../assets/images/icons8-python-50.png";
 import sqllogo from "../../assets/images/icons8-sql-50.png";
 import bannerimagen from "../../assets/images/homeimages/giblifoto-removebg-preview.png";
 import CV_Jorge from '../../assets/images/cv/Jorge_E_CV.pdf';
-import CV from '../../assets/images/cv/CV.pdf'
 
 const Banner = () => {
 
@@ -79,8 +78,8 @@ const Banner = () => {
 
           <div className="banner-buttons" ref={bannerButtonsRef}>
             <a
-              href={CV} 
-              download="CV.pdf"
+              href={CV_Jorge} 
+              download="Jorge_E_CV.pdf"
               className="banner-button"
             >
             Descargar CV
