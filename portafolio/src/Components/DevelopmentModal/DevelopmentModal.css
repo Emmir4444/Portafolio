@@ -1,0 +1,45 @@
+/* Estilo para el fondo (Overlay) */
+.modal-overlay {
+    position: fixed; /* Fija el modal en la ventana */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente y oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000; /* Asegura que esté por encima de todo */
+}
+
+/* Estilo para el contenido del Modal */
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    text-align: center;
+    color: #333;
+}
+
+.modal-content h3 {
+    margin-top: 0;
+    color: #020200; /* Color de advertencia */
+}
+
+/* Estilo para el botón OK */
+.modal-button {
+    background-color: #050d15; /* Un color primario */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+.modal-button:hover {
+    background-color: #0056b3;
+}

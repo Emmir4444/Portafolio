@@ -7,7 +7,7 @@ const BannerAbout = () => {
     <div className='banner-about-main'>
         <h1 className='banner-about-title'>SOBRE MI</h1>
         
-        <p className='banner-about-description'>Conoce un poco mas sobre mi historia obejetivos etcConoce un poco mas sobre mi historia obejetivos etc...</p>
+        <p className='banner-about-description'>Conoce un poco mas sobre mi, mi historia, mis objetivos, hobbies...</p>
       
     </div>
   )
