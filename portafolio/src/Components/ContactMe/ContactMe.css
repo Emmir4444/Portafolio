@@ -193,11 +193,14 @@
     .form-input,
     .form-textarea {
         font-size: 0.8rem;
-        padding: 8px;
+        padding: 9px;
+        height: 22%;
+        
+     
     }
 
     .btn-contactme {
-        margin-top: 15px;
-        font-size: 0.9rem;
+        margin-top: 5px;
+        font-size: 0.5rem;
     }
 }
