@@ -15,7 +15,9 @@ const Home = () => {
       <Banner />
       <About />
       <Projects />
-      <ContactMe/>  
+      <div id="contact-section">
+        <ContactMe/>  
+        </div>
   </section>
   )
 

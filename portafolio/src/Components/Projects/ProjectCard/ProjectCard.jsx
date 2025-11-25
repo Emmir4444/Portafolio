@@ -2,7 +2,7 @@ import React from 'react'
 import './ProjectCard.css';
 import myprojectImage from '../../../assets/images/myprojects_images.jpg';
 
-const ProjectCard = ({image,title,description}) => {
+const ProjectCard = ({image,title,description,repoURL}) => {
   return (
     <div className='project-card-container'>
         <div className='project-card-image-container'>

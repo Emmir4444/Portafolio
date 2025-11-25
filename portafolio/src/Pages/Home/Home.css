@@ -3,3 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* Puedes añadir esto en tu archivo CSS principal */
+html {
+  scroll-behavior: smooth;
+}

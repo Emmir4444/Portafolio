@@ -1,11 +1,27 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom"; 
 import "./Navbar.css";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation(); 
 
   const toggleMenu = () => setIsOpen(!isOpen);
+
+
+  const handleContactClick = (e) => {
+    setIsOpen(false); 
+
+    if (location.pathname === '/') {
+      e.preventDefault(); 
+      
+      const contactSection = document.getElementById('contact-section');
+      
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
 
   return (
     <nav className="navbar">
@@ -21,7 +37,15 @@ export default function Navbar() {
         <li><Link to="/" onClick={() => setIsOpen(false)}>Inicio</Link></li>
         <li><Link to="/aboutme" onClick={() => setIsOpen(false)}>Sobre mí</Link></li>
         <li><Link to="/projects" onClick={() => setIsOpen(false)}>Proyectos</Link></li>
-        <li><Link to="/contact" onClick={() => setIsOpen(false)}>Contacto</Link></li>
+        
+        <li>
+            <Link 
+                to="/#contact-section" 
+                onClick={handleContactClick} 
+            >
+                Contacto
+            </Link>
+        </li>
       </ul>
     </nav>
   );

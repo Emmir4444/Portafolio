@@ -1,6 +1,6 @@
 import React from 'react'
 import './ProjectItem.css'
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'; 
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub,FaGlobe } from 'react-icons/fa'; 
 
 const ProjectItem = ({
   title = "NOMBRE DEL PROYECTO",
@@ -8,7 +8,8 @@ const ProjectItem = ({
   githubLink = "#",
   technologies = [],
   collaboration = { icon: null },
-  image
+  image,
+  buttontext="Visitar"
 }) => {
   return (
     <div className='projectitem-main-container'>
@@ -16,8 +17,8 @@ const ProjectItem = ({
             <h1 className='projectitem-title'>{title}</h1>
             <p className='projectitem-description'>{description}</p>
             <a href={githubLink} className='projectitm-button' target="_blank" rel="noopener noreferrer">
-              <FaGithub size={20} style={{ marginRight: '8px' }} />
-              Ir a Github
+              <FaGlobe size={20} style={{ marginRight: '8px' }} />
+             {buttontext}
             </a>
         </div>
         <div className='projectitem-container-right'>
